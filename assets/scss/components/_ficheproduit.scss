@@ -1,0 +1,313 @@
+section#homepage-hero{
+    background: #f8f8f8;
+}
+
+div.container{
+    background: #fff;
+    padding: 0 15px;
+}
+
+.breadcrumbs {
+    margin-top: 30px;
+    margin-left: 15px;
+        a{
+        color: #000;
+        text-decoration: none;
+        &.active{
+            color: $yellow;
+        }
+        &:hover{
+            color: $yellow;
+            text-decoration: none;
+        }
+    }
+}
+
+h1.titre-article{
+    color: #000 !important;
+    font-family: $Mont;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 5px solid $yellow;
+}
+
+h2.titre-article{
+    color: #000 !important;
+    font-family: $Mont;
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 15px;
+    border-left: 5px solid $yellow;
+}
+
+/* ------------------ GALERIE ----------------*/
+
+.slideshow-slideright{
+    display: none;
+}
+
+.slideshow-slideleft{
+    display: none;
+}
+
+.slideshow-slider{
+    padding-left: 13px !important;
+
+    img{
+        padding: 0px !important;
+    }
+
+    img:hover{
+        border: 1px solid $yellow !important;
+    }
+}
+
+.slideshow-wrapper{
+    border: none;
+}
+
+.slideshow-fullsize img{
+    border: 1px solid #000 !important;
+}
+
+.slideshow-fullsize{
+    height: 280px;
+    max-height: 280px;
+}
+
+/* ---------------- TEXTE DESCRIPTION ------------------*/
+
+.Description{
+    b{
+        color: $blue;
+        font-size: 16px;
+        font-family: $Mont;
+    }
+    p{
+        color: $gris;
+        font-size: 12px;
+        font-family: $Open;
+    }
+}
+
+/* ---------------- BTN DOWNLOAD & CONTACT ------------------*/
+
+.Btn-download-container{
+    padding: 0 15px 0 0;
+    margin-bottom: 20px;
+}
+
+.Btn-contact-container{
+    padding: 0 15px 0 0;
+    margin-bottom: 20px;
+}
+
+.download{
+    background: url('../images/matrel/matrel-download.png')left center no-repeat $yellow;
+    background-position: 15px;
+    padding: 1rem;
+    padding-left: 40px;
+    margin-right: 10px;
+    font-family: $Mont;
+    color: #000;
+    font-size: 12px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    &:hover{
+        background: url('../images/matrel/matrel-download.png')left center no-repeat $orange;
+        background-position: 15px;
+        padding: 1rem;
+        padding-left: 40px;
+        font-family: $Mont;
+        color: #000;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.contact{
+    background: url('../images/matrel/matrel-contact.png')left center no-repeat $yellow;
+    background-position: 15px;
+    padding: 1rem;
+    padding-left: 40px;
+    font-family: $Mont;
+    color: #000;
+    font-size: 12px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+    &:hover{
+        background: url('../images/matrel/matrel-contact.png')left center no-repeat $orange;
+        background-position: 15px;
+        padding: 1rem;
+        padding-left: 40px;
+        font-family: $Mont;
+        color: #000;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.download-big{
+    background: url('../images/matrel/matrel-download.png')left center no-repeat $yellow;
+    background-position: 15px;
+    padding: 1rem;
+    padding-left: 40px;
+    margin-right: 10px;
+    font-family: $Mont;
+    color: #000;
+    font-size: 14px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover{
+        background: url('../images/matrel/matrel-download.png')left center no-repeat $orange;
+        background-position: 15px;
+        padding: 1rem;
+        padding-left: 40px;
+        font-family: $Mont;
+        color: #000;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.contact-big{
+    background: url('../images/matrel/matrel-contact.png')left center no-repeat $yellow;
+    background-position: 15px;
+    padding: 1rem;
+    padding-left: 40px;
+    font-family: $Mont;
+    color: #000;
+    font-size: 14px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover{
+        background: url('../images/matrel/matrel-contact.png')left center no-repeat $orange;
+        background-position: 15px;
+        padding: 1rem;
+        padding-left: 40px;
+        font-family: $Mont;
+        color: #000;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+/* ----------------- CARACTERISTIQUES CONTENT ----------------------*/
+
+div.caracteristiques-container{
+    /*background: url('../images/matrel/matrel-pattern.png') top center no-repeat;*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    section.caracteristiques-content{
+        border-top: 1px solid #e8e8e8;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    iframe{
+        padding-top: 15px;
+    }
+
+    ul li{
+        list-style-type: square;
+        display : list-item;
+        list-style-image : url('../images/matrel/matrel-puces.png');
+        font-family: $Open;
+        color: $gris;
+        font-size: 14px;
+    }
+}
+button.ytp-large-play-button .ytp-button:hover{
+    background: $yellow !important;
+}
+
+/*--------------------- ARTICLES ASSOCIES----------------*/
+
+section.articles-associes-content{
+    padding-top: 30px;
+    border-top: 1px solid #e8e8e8;
+    padding-bottom: 30px;
+}
+
+h5 a{
+    font-family: $Mont;
+    font-size: 12px;
+    color: #000;
+
+    &:hover{
+        color: $yellow;
+    }
+}
+
+.hover-img{
+    background: rgba(0,0,0, 0.8); /*rgba(255,204,0,0.8);*/
+    position: absolute;
+    z-index: 999;
+    display: block;
+    height: 166px;
+    max-height: 166px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    padding-top:71px;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    i{
+        color: $yellow;
+        font-size: 28px;
+    }
+}
+
+a.image-article-associe{
+    position: relative;
+    max-height: 166px;
+
+    &:hover > .hover-img{
+        opacity: 1;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}

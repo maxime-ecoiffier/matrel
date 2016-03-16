@@ -1,0 +1,99 @@
+ul li {
+    list-style-type: none;
+    border: none;
+}
+
+ul li a{
+    font-family: $Mont;
+}
+
+.pre-header{
+    background: white;
+    padding-top: 15px;
+
+    img {
+        margin-right: 15px;
+    }
+
+    ul li {
+        display: inline-block;
+        font-size: 12px;
+        vertical-align: bottom;
+
+        a{
+            color: black;
+            font-weight: 300;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+}
+
+.top-bar-left a{
+    background: #000;
+    color: #fff;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        color: $yellow;
+        border-bottom: 3px solid $yellow;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+.top-bar-right a{
+    background: $yellow;
+    color: #000;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+    &.download{
+        background: url('../images/matrel/matrel-download.png')left center no-repeat $yellow;
+        background-position: 15px;
+        padding-left: 40px;
+
+        &:hover{
+            background: url('../images/matrel/matrel-download.png')left center no-repeat $orange;
+            background-position: 15px;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+            transition: all 0.2s ease-in-out;
+        }
+    }
+
+    &:hover{
+        background: $orange;
+        border: none;
+        color: black;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
+    }
+}
+
+@media screen and (max-width: 640px){
+  .menu-principal ul{
+        display:block;
+        li{
+            display: block;
+                a{
+                    text-align: center;
+                    &:hover{
+                        border: none;
+                    }
+                }
+        }
+    }
+}
